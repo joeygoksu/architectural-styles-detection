@@ -1,0 +1,24 @@
+{
+  "name": "retrain-mobilenet-for-the-web",
+  "version": "1.0.0",
+  "description": "Retrain a MobileNet V1 or V2 model for the web with TensorFlow.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "author": "Tjerk Woudsma",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs": "^1.5.0",
+    "@tensorflow/tfjs-converter": "^1.5.1",
+    "@tensorflow/tfjs-core": "^1.5.1",
+    "react-scripts": "^3.3.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
